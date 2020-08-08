@@ -1311,6 +1311,7 @@ static const mrb_sym each_syms[] = {
 static const mrb_irep each_irep = {
   3,                                   /* nlocals */
   7,                                   /* nregs */
+  0,                                   /* clen */
   MRB_ISEQ_NO_FREE | MRB_IREP_NO_FREE, /* flags */
   each_iseq,                           /* iseq */
   NULL,                                /* pool */
